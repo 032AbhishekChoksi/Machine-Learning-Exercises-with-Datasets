@@ -10,7 +10,7 @@ dataset.head()
  
 # data preprocessing
 X = dataset.iloc[:, :-1].values  #independent variable array
-y = dataset.iloc[:,1].values  #dependent variable vector
+y = dataset.iloc[:,-1].values  #dependent variable vector
  
 # splitting the dataset
 from sklearn.model_selection import train_test_split
