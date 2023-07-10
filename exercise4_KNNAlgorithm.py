@@ -1,8 +1,8 @@
 # K-Nearest Neighbor(KNN) Algorithm
 
 # importing libraries  
-import numpy as nm  
-import matplotlib.pyplot as mtp  
+import numpy as np  
+import matplotlib.pyplot as plt  
 import pandas as pd  
   
 #importing datasets  
